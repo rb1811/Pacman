@@ -119,8 +119,9 @@ def breadthFirstSearch(problem):
         parent = fringe.pop()
         if problem.isGoalState(parent):
             return generate_path(parent, problem, child)
+        # closed_list.append(parent)
         for successor in problem.getSuccessors(parent):
-            if successor[0] not in closed_list:# and successor[0] not in fringe.list:
+            if successor[0] not in closed_list and successor[0] not in fringe.list:
                 closed_list.append(successor[0])
                 fringe.push(successor[0])
                 child[successor[0]] = [parent, successor[1]]
@@ -192,10 +193,10 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         for successor in problem.getSuccessors(parent):
             if cost.has_key(successor[0]):
                 if cost[successor[0]] > cumulative_cost+successor[2]:
-                    cost[successor[0]] = cumulative_cost+successor[2]#+heuristic(problem.getStartState(), problem)
+                    cost[successor[0]] = cumulative_cost+successor[2]
                     child[successor[0]] = [parent, successor[1]]
             else:
-                cost[successor[0]] =  cumulative_cost+successor[2]#+heuristic(successor[0],problem)
+                cost[successor[0]] =  cumulative_cost+successor[2]
                 child[successor[0]] =  [parent, successor[1]]
             fringe.update(successor[0], cumulative_cost+successor[2]+heuristic(successor[0],problem))
     util.raiseNotDefined()

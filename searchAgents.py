@@ -289,8 +289,8 @@ class CornersProblem(search.SearchProblem):
         # Please add any code here which you would like to use
         # in initializing the problem
         self.costFn = lambda newstate: 1
-        # print "Walls: ",self.walls
-        # print "starting positions: ",self.startingPosition
+        print "Walls: ",self.walls
+        print "starting positions: ",self.startingPosition
         # print "Corners: ",self.corners
         "*** YOUR CODE HERE ***"
 
