@@ -95,6 +95,8 @@ def depthFirstSearch(problem):
     fringe.push(problem.getStartState())
     closed_list, child= [], {True:problem.getStartState()}
     while True:
+        if fringe.isEmpty():
+            return False
         parent = fringe.pop()
         closed_list.append(parent)
         if problem.isGoalState(parent):
@@ -112,6 +114,8 @@ def breadthFirstSearch(problem):
     fringe.push(problem.getStartState())
     closed_list, child = [],  {True: problem.getStartState()}
     while True:
+        if fringe.isEmpty():
+            return False
         parent = fringe.pop()
         closed_list.append(parent)
         if problem.isGoalState(parent):
