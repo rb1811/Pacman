@@ -281,12 +281,17 @@ class CornersProblem(search.SearchProblem):
         self.startingPosition = startingGameState.getPacmanPosition()
         top, right = self.walls.height-2, self.walls.width-2
         self.corners = ((1,1), (1,top), (right, 1), (right, top))
+        self.listOfCorners = [x for x in self.corners]
         for corner in self.corners:
             if not startingGameState.hasFood(*corner):
                 print 'Warning: no food in corner ' + str(corner)
         self._expanded = 0 # DO NOT CHANGE; Number of search nodes expanded
         # Please add any code here which you would like to use
         # in initializing the problem
+        self.costFn = lambda newstate: 1
+        # print "Walls: ",self.walls
+        # print "starting positions: ",self.startingPosition
+        # print "Corners: ",self.corners
         "*** YOUR CODE HERE ***"
 
     def getStartState(self):
@@ -295,6 +300,7 @@ class CornersProblem(search.SearchProblem):
         space)
         """
         "*** YOUR CODE HERE ***"
+        return self.startingPosition
         util.raiseNotDefined()
 
     def isGoalState(self, state):
@@ -302,6 +308,9 @@ class CornersProblem(search.SearchProblem):
         Returns whether this search state is a goal state of the problem.
         """
         "*** YOUR CODE HERE ***"
+        if len(self.listOfCorners) == 1 :
+            return True
+        return  False
         util.raiseNotDefined()
 
     def getSuccessors(self, state):
@@ -323,7 +332,15 @@ class CornersProblem(search.SearchProblem):
             #   dx, dy = Actions.directionToVector(action)
             #   nextx, nexty = int(x + dx), int(y + dy)
             #   hitsWall = self.walls[nextx][nexty]
-
+            if state in self.listOfCorners:
+                self.listOfCorners.remove(state)
+            x, y = state
+            dx, dy = Actions.directionToVector(action)
+            nextx, nexty = int(x + dx), int(y + dy)
+            if not self.walls[nextx][nexty]:
+                nextState = (nextx, nexty)
+                cost = self.costFn(nextState)
+                successors.append((nextState, action, cost))
             "*** YOUR CODE HERE ***"
 
         self._expanded += 1 # DO NOT CHANGE

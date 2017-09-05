@@ -112,19 +112,18 @@ def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     fringe = util.Queue()
     fringe.push(problem.getStartState())
-    closed_list, child = [],  {True: problem.getStartState()}
+    closed_list, child = [problem.getStartState()],  {True: problem.getStartState()}
     while True:
         if fringe.isEmpty():
             return False
         parent = fringe.pop()
-        closed_list.append(parent)
         if problem.isGoalState(parent):
             return generate_path(parent, problem, child)
         for successor in problem.getSuccessors(parent):
-            if successor[0] not in closed_list:
-                if successor[0] not in fringe.list:
-                    fringe.push(successor[0])
-                    child[successor[0]] = [parent, successor[1]]
+            if successor[0] not in closed_list:# and successor[0] not in fringe.list:
+                closed_list.append(successor[0])
+                fringe.push(successor[0])
+                child[successor[0]] = [parent, successor[1]]
     util.raiseNotDefined()
 
 
