@@ -160,7 +160,7 @@ def uniformCostSearch(problem):
 def generate_path(parent, problem, child):
     path = []
     key = parent
-    while key is not problem.getStartState():
+    while key != problem.getStartState():
         path.append(child[key][1])
         key = child[key][0]
     path = path[::-1]
