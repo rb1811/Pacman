@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98a51325-e0bc-4570-8446-9bffbf3658ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.py" afterPath="$PROJECT_DIR$/search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchAgents.py" afterPath="$PROJECT_DIR$/searchAgents.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="740">
+              <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
               <folding>
                 <element signature="e#774#785#0" expanded="true" />
               </folding>
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchAgents.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="searchAgents.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/searchAgents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="282" column="65" lean-forward="false" selection-start-line="282" selection-start-column="65" selection-end-line="282" selection-end-column="65" />
+            <state relative-caret-position="340">
+              <caret line="335" column="42" lean-forward="true" selection-start-line="335" selection-start-column="42" selection-end-line="335" selection-end-column="42" />
               <folding>
                 <element signature="e#1499#1785#0" expanded="false" />
                 <element signature="e#5411#8912#0" expanded="false" />
@@ -46,11 +44,11 @@
                 <element signature="e#9425#9822#0" expanded="false" />
                 <element signature="e#9880#10039#0" expanded="false" />
                 <element signature="e#10097#10271#0" expanded="false" />
-                <element signature="e#17217#17437#0" expanded="false" />
-                <element signature="e#17478#18823#0" expanded="false" />
-                <element signature="e#18871#20127#0" expanded="false" />
-                <element signature="e#20184#21440#0" expanded="false" />
-                <element signature="e#21491#22170#0" expanded="false" />
+                <element signature="e#17277#17497#0" expanded="false" />
+                <element signature="e#17538#18883#0" expanded="false" />
+                <element signature="e#18931#20187#0" expanded="false" />
+                <element signature="e#20244#21500#0" expanded="false" />
+                <element signature="e#21551#22230#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Actions</find>
       <find>raph_infinite.test</find>
       <find>graph_infinite.test</find>
       <find>heapq</find>
@@ -128,8 +125,9 @@
       <find>FoodSea</find>
       <find>self.doneCorners</find>
       <find>donecorner</find>
-      <find>doneCorner</find>
       <find>doneCorners</find>
+      <find>doneCorner</find>
+      <find>filterCorner</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -350,7 +348,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6722408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="0" y="56" width="1366" height="697" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441473" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5215947" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67725754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -532,11 +530,11 @@
             <element signature="e#9425#9822#0" expanded="false" />
             <element signature="e#9880#10039#0" expanded="false" />
             <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#17217#17437#0" expanded="false" />
-            <element signature="e#17478#18823#0" expanded="false" />
-            <element signature="e#18871#20127#0" expanded="false" />
-            <element signature="e#20184#21440#0" expanded="false" />
-            <element signature="e#21491#22170#0" expanded="false" />
+            <element signature="e#17277#17497#0" expanded="false" />
+            <element signature="e#17538#18883#0" expanded="false" />
+            <element signature="e#18931#20187#0" expanded="false" />
+            <element signature="e#20244#21500#0" expanded="false" />
+            <element signature="e#21551#22230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -580,11 +578,11 @@
             <element signature="e#9425#9822#0" expanded="false" />
             <element signature="e#9880#10039#0" expanded="false" />
             <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#17217#17437#0" expanded="false" />
-            <element signature="e#17478#18823#0" expanded="false" />
-            <element signature="e#18871#20127#0" expanded="false" />
-            <element signature="e#20184#21440#0" expanded="false" />
-            <element signature="e#21491#22170#0" expanded="false" />
+            <element signature="e#17277#17497#0" expanded="false" />
+            <element signature="e#17538#18883#0" expanded="false" />
+            <element signature="e#18931#20187#0" expanded="false" />
+            <element signature="e#20244#21500#0" expanded="false" />
+            <element signature="e#21551#22230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,11 +608,11 @@
             <element signature="e#9425#9822#0" expanded="false" />
             <element signature="e#9880#10039#0" expanded="false" />
             <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#17217#17437#0" expanded="false" />
-            <element signature="e#17478#18823#0" expanded="false" />
-            <element signature="e#18871#20127#0" expanded="false" />
-            <element signature="e#20184#21440#0" expanded="false" />
-            <element signature="e#21491#22170#0" expanded="false" />
+            <element signature="e#17277#17497#0" expanded="false" />
+            <element signature="e#17538#18883#0" expanded="false" />
+            <element signature="e#18931#20187#0" expanded="false" />
+            <element signature="e#20244#21500#0" expanded="false" />
+            <element signature="e#21551#22230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,10 +810,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+          <folding>
+            <element signature="e#774#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/searchAgents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="282" column="65" lean-forward="false" selection-start-line="282" selection-start-column="65" selection-end-line="282" selection-end-column="65" />
+        <state relative-caret-position="340">
+          <caret line="335" column="42" lean-forward="true" selection-start-line="335" selection-start-column="42" selection-end-line="335" selection-end-column="42" />
           <folding>
             <element signature="e#1499#1785#0" expanded="false" />
             <element signature="e#5411#8912#0" expanded="false" />
@@ -823,21 +831,11 @@
             <element signature="e#9425#9822#0" expanded="false" />
             <element signature="e#9880#10039#0" expanded="false" />
             <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#17217#17437#0" expanded="false" />
-            <element signature="e#17478#18823#0" expanded="false" />
-            <element signature="e#18871#20127#0" expanded="false" />
-            <element signature="e#20184#21440#0" expanded="false" />
-            <element signature="e#21491#22170#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
+            <element signature="e#17277#17497#0" expanded="false" />
+            <element signature="e#17538#18883#0" expanded="false" />
+            <element signature="e#18931#20187#0" expanded="false" />
+            <element signature="e#20244#21500#0" expanded="false" />
+            <element signature="e#21551#22230#0" expanded="false" />
           </folding>
         </state>
       </provider>
