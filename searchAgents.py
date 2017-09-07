@@ -288,10 +288,6 @@ class CornersProblem(search.SearchProblem):
         # Please add any code here which you would like to use
         # in initializing the problem
         self.costFn = lambda newstate: 1
-
-        # print "Walls: ",self.walls
-        # print "starting positions: ",self.startingPosition
-        # print "Corners: ",self.corners
         "*** YOUR CODE HERE ***"
 
     def getStartState(self):
@@ -370,11 +366,15 @@ def cornersHeuristic(state, problem):
     shortest path from the state to a goal of the problem; i.e.  it should be
     admissible (as well as consistent).
     """
-    corners = problem.corners # These are the corner coordinates
-    walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
-    currentState, leftCorners = state[0], state[1]
+    currentState, leftCorners = state[0], list(state[1])
     if state[1]:
-        return min([util.manhattanDistance(currentState, x) for x in leftCorners])
+        total_heu = 0
+        while leftCorners:
+            all_heu = [util.manhattanDistance(currentState, x) for x in leftCorners]
+            mini = min(all_heu)
+            total_heu+=mini
+            currentState = leftCorners.pop(all_heu.index(mini))
+        return  total_heu
     else:
         return 0 # Default to trivial solution
 
@@ -469,6 +469,7 @@ def foodHeuristic(state, problem):
     problem.heuristicInfo['wallCount']
     """
     position, foodGrid = state
+
     "*** YOUR CODE HERE ***"
     return 0
 
