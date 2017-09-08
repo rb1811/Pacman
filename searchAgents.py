@@ -368,15 +368,20 @@ def cornersHeuristic(state, problem):
     """
     currentState, leftCorners = state[0], list(state[1])
     if state[1]:
-        total_heu = 0
-        while leftCorners:
-            all_heu = [util.manhattanDistance(currentState, x) for x in leftCorners]
-            mini = min(all_heu)
-            total_heu+=mini
-            currentState = leftCorners.pop(all_heu.index(mini))
-        return  total_heu
+        return  giveHeuristic(currentState, leftCorners)
     else:
         return 0 # Default to trivial solution
+
+
+def giveHeuristic(currentState, goalStates):
+    total_heu = 0
+    while goalStates:
+        all_heu = [util.manhattanDistance(currentState, x) for x in goalStates]
+        mini = min(all_heu)
+        total_heu += mini
+        currentState = goalStates.pop(all_heu.index(mini))
+    return total_heu
+
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
@@ -469,9 +474,30 @@ def foodHeuristic(state, problem):
     problem.heuristicInfo['wallCount']
     """
     position, foodGrid = state
+    food_position =  foodGrid.asList()
+    if not food_position:
+        return 0
+    md_food_position = [util.manhattanDistance(position,x) for x in food_position]
+    md_closest_food = min(md_food_position)
+    total_heu = mazeDistance(position,food_position[md_food_position.index(md_closest_food)],problem.startingGameState)
+    counter =0
+    for x,y in food_position:
+        if x != food_position[md_food_position.index(md_closest_food)][0] and x!= position[0]:
+            counter+=1
+            continue
+        elif y != food_position[md_food_position.index(md_closest_food)][1] and y != position[1]:
+            counter += 1
+            continue
+    return total_heu+counter
 
-    "*** YOUR CODE HERE ***"
-    return 0
+    # if food_position:
+    #     md_food_position =  [util.manhattanDistance(position,x) for x in food_position]
+    #     md_closest_food = min(md_food_position)
+    #     updated_pos = food_position[md_food_position.index(md_closest_food)]
+    #     food_position.pop(md_food_position.index(md_closest_food))
+    #     return  md_closest_food + sum([util.manhattanDistance(updated_pos,x) for x in food_position])/len(md_food_position)
+    # else:
+    #     return 0
 
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"
