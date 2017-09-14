@@ -91,80 +91,69 @@ def depthFirstSearch(problem):
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print  "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
-    fringe = util.Stack()
+    fringe = util.Stack()#Stack data structure to explore the tree
     fringe.push(problem.getStartState())
-    closed_list, child= [], {True:problem.getStartState()}
+    closed_list, child= [], {True:problem.getStartState()}#closed_list to store the visited nodes
     while True:
-        if fringe.isEmpty():
+        if fringe.isEmpty():#If the tree is empty return failure
             return False
         parent = fringe.pop()
         closed_list.append(parent)
-        if problem.isGoalState(parent):
+        if problem.isGoalState(parent):#Check if you have reached the goal state, if so return the path from start state to goal state
             return generate_path(parent, problem, child)
         for successor in problem.getSuccessors(parent):
-            if successor[0] not in closed_list:
+            if successor[0] not in closed_list:#to make sure you are not exploring any already visited node
                 fringe.push(successor[0])
-                child[successor[0]] = [parent, successor[1]]
+                child[successor[0]] = [parent, successor[1]]#A dictionary that hold {child: [parent, direction]} Direction to reach from parent to child
     util.raiseNotDefined()
 
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
-    fringe = util.Queue()
+    fringe = util.Queue()#Queue data structure to explore the tree
     fringe.push(problem.getStartState())
-    closed_list, child = [problem.getStartState()],  {True: problem.getStartState()}
+    closed_list, child = [problem.getStartState()],  {True: problem.getStartState()}#closed_list to store the visited nodes
     while True:
-        if fringe.isEmpty():
+        if fringe.isEmpty():#If the tree is empty return failure
             return False
         parent = fringe.pop()
-        if problem.isGoalState(parent):
+        if problem.isGoalState(parent):#Check if you have reached the goal state, if so return the path from start state to goal state
             return generate_path(parent, problem, child)
-        # closed_list.append(parent)
         for successor in problem.getSuccessors(parent):
-            if successor[0] not in closed_list and successor[0] not in fringe.list:
+            if successor[0] not in closed_list and successor[0] not in fringe.list:#to make sure you are not exploring any already visited node
                 closed_list.append(successor[0])
                 fringe.push(successor[0])
-                child[successor[0]] = [parent, successor[1]]
+                child[successor[0]] = [parent, successor[1]]#A dictionary that hold {child: [parent, direction]} Direction to reach from parent to child
     util.raiseNotDefined()
 
 
 def uniformCostSearch(problem):
     # """Search the node of least total cost first."""
-    fringe = util.PriorityQueue()
-    cumulative_cost = 0
+    fringe = util.PriorityQueue()#Priority Queue data structure to explore the tree
+    cumulative_cost = 0#cumulative cost that is needed to reach to any state from start state
     fringe.update(problem.getStartState(), cumulative_cost)
-    closed_list, child, cost = [], {True: problem.getStartState()}, {problem.getStartState(): 0}
+    closed_list, child, cost = [], {True: problem.getStartState()}, {problem.getStartState(): 0}#closed_list to store the visited nodes
     while True:
-        if fringe.isEmpty():
+        if fringe.isEmpty():#If the tree is empty return failure
             return False
         parent = fringe.pop()
-        if parent in closed_list:
+        if parent in closed_list:#to make sure you are not exploring any already visited node
             continue
         cumulative_cost = cost[parent]
-        if problem.isGoalState(parent):
+        if problem.isGoalState(parent):#Check if you have reached the goal state, if so return the path from start state to goal state
             return generate_path(parent, problem, child)
         closed_list.append(parent)
         for successor in problem.getSuccessors(parent):
-            if cost.has_key(successor[0]):
+            if cost.has_key(successor[0]):#Check if a state that has already been explored can be reached with a lower cost
                 if cost[successor[0]] > cumulative_cost+successor[2]:
-                    cost[successor[0]] = cumulative_cost+successor[2]
+                    cost[successor[0]] = cumulative_cost+successor[2]#A dictionary to hold the {state: least_cost} where least cost is the cumulative cost
                     child[successor[0]] = [parent, successor[1]]
-            else:
+            else:#Else just push the state into the cost dictionary and into the to_be_explored_list or fringe
                 cost[successor[0]] =  cumulative_cost+successor[2]
                 child[successor[0]] =  [parent, successor[1]]
-            fringe.update(successor[0], cumulative_cost+successor[2])
+            fringe.update(successor[0], cumulative_cost+successor[2])#make sure you have the updated cost in the Priority queue always
 
     util.raiseNotDefined()
-
-
-def generate_path(parent, problem, child):
-    path = []
-    key = parent
-    while key != problem.getStartState():
-        path.append(child[key][1])
-        key = child[key][0]
-    path = path[::-1]
-    return path
 
 def nullHeuristic(state, problem=None):
     """
@@ -176,30 +165,41 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
-    fringe = util.PriorityQueue()
+    fringe = util.PriorityQueue()#Priority Queue data structure to explore the tree
     cumulative_cost = 0
     fringe.push(problem.getStartState(), cumulative_cost+heuristic(problem.getStartState(), problem))
-    closed_list, child, cost = [], {True: problem.getStartState()}, {problem.getStartState(): 0}
+    closed_list, child, cost = [], {True: problem.getStartState()}, {problem.getStartState(): 0}#closed_list to store the visited nodes
     while True:
-        if fringe.isEmpty():
+        if fringe.isEmpty():#If the tree is empty return failure
             return False
         parent = fringe.pop()
-        if parent in closed_list:
+        if parent in closed_list:#to make sure you are not exploring any already visited node
             continue
         cumulative_cost = cost[parent]
-        if problem.isGoalState(parent):
+        if problem.isGoalState(parent):#Check if you have reached the goal state, if so return the path from start state to goal state
             return generate_path(parent, problem, child)
         closed_list.append(parent)
         for successor in problem.getSuccessors(parent):
-            if cost.has_key(successor[0]):
+            if cost.has_key(successor[0]):#Check if a state that has already been explored can be reached with a lower cost
                 if cost[successor[0]] > cumulative_cost+successor[2]:
-                    cost[successor[0]] = cumulative_cost+successor[2]
+                    cost[successor[0]] = cumulative_cost+successor[2]#A dictionary to hold the {state: least_cost} where least cost is the cumulative cost
                     child[successor[0]] = [parent, successor[1]]
-            else:
+            else:#Else just push the state into the cost dictionary and into the to_be_explored_list or fringe
                 cost[successor[0]] =  cumulative_cost+successor[2]
                 child[successor[0]] =  [parent, successor[1]]
-            fringe.update(successor[0], cumulative_cost+successor[2]+heuristic(successor[0],problem))
+            fringe.update(successor[0], cumulative_cost+successor[2]+heuristic(successor[0],problem))#make sure you have the updated cost in the Priority queue always with the heuristic included.
     util.raiseNotDefined()
+
+
+#Common function that generate the path from goal state to start and then reverses it before returning it.
+def generate_path(parent, problem, child):
+    path = []
+    key = parent
+    while key != problem.getStartState():
+        path.append(child[key][1])
+        key = child[key][0]
+    path = path[::-1]
+    return path
 
 
 # Abbreviations
