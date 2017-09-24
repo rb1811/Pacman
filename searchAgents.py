@@ -287,7 +287,7 @@ class CornersProblem(search.SearchProblem):
         self._expanded = 0 # DO NOT CHANGE; Number of search nodes expanded
         # Please add any code here which you would like to use
         # in initializing the problem
-        self.costFn = lambda newstate: 1
+        self.costFn = lambda newstate: 1 #The cost to reach any new state is always one
         "*** YOUR CODE HERE ***"
 
     def getStartState(self):
@@ -296,14 +296,14 @@ class CornersProblem(search.SearchProblem):
         space)
         """
         "*** YOUR CODE HERE ***"
-        return (self.startingPosition,self.corners)
+        return (self.startingPosition,self.corners) #comprises of the start position of the pacman with the corners left to explore.
         util.raiseNotDefined()
 
     def isGoalState(self, state):
         """
         Returns whether this search state is a goal state of the problem.
         """
-        return len(state[1]) == 0
+        return len(state[1]) == 0 #Returns true when for a state in the problem all corners have been explored.
         util.raiseNotDefined()
 
     def getSuccessors(self, state):
@@ -326,7 +326,7 @@ class CornersProblem(search.SearchProblem):
             nextx, nexty = int(x + dx), int(y + dy)
             if not self.walls[nextx][nexty]:
                 nextState = (nextx, nexty)
-                if nextState in self.corners and nextState in leftCorners:
+                if nextState in self.corners and nextState in leftCorners: #Remove the corner from the leftcorners list if the next state is a corner state
                         leftCorners = tuple(filterCorner for filterCorner in leftCorners if filterCorner != nextState)
                 cost = self.costFn(nextState)
                 successors.append(((nextState,leftCorners), action, cost))
@@ -370,6 +370,8 @@ def cornersHeuristic(state, problem):
 
 
 def giveHeuristic(currentState, goalStates):
+    # Visit the nearest goal state using manhattadDistance and add it to the total heuristic. Update the current
+    # position to the nearest corner and pop the the corner from the remaining list. Repeat the process until all corners are vistied.
     total_heu = 0
     while goalStates:
         all_heu = [util.manhattanDistance(currentState, x) for x in goalStates]
@@ -469,6 +471,12 @@ def foodHeuristic(state, problem):
     Subsequent calls to this heuristic can access
     problem.heuristicInfo['wallCount']
     """
+
+    #The logic for finding the heuristic
+    """Find the manhattan distance to the nearest food. Then calculate the mazeDistance between the 
+    current position and the nearest food. To this add 1 for every food which doesn't share a (x,y) coordinate 
+    with the pacman's position or the nearest food because all those food will be eaten while going to the nearest food
+    """
     position, foodGrid = state
     food_position =  foodGrid.asList()
     if not food_position:
@@ -485,15 +493,6 @@ def foodHeuristic(state, problem):
             counter += 1
             continue
     return total_heu+counter
-
-    # if food_position:
-    #     md_food_position =  [util.manhattanDistance(position,x) for x in food_position]
-    #     md_closest_food = min(md_food_position)
-    #     updated_pos = food_position[md_food_position.index(md_closest_food)]
-    #     food_position.pop(md_food_position.index(md_closest_food))
-    #     return  md_closest_food + sum([util.manhattanDistance(updated_pos,x) for x in food_position])/len(md_food_position)
-    # else:
-    #     return 0
 
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"
@@ -522,7 +521,7 @@ class ClosestDotSearchAgent(SearchAgent):
         food = gameState.getFood()
         walls = gameState.getWalls()
         problem = AnyFoodSearchProblem(gameState)
-        return search.astar(problem)
+        return search.astar(problem) #use astar algorithm to solve the problem
         "*** YOUR CODE HERE ***"
         util.raiseNotDefined()
 
@@ -558,7 +557,7 @@ class AnyFoodSearchProblem(PositionSearchProblem):
         complete the problem definition.
         """
         x,y = state
-        return self.food[x][y]
+        return self.food[x][y] #Returns true if there is a food in that position
         "*** YOUR CODE HERE ***"
         util.raiseNotDefined()
 
