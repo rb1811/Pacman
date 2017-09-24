@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98a51325-e0bc-4570-8446-9bffbf3658ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchAgents.py" afterPath="$PROJECT_DIR$/searchAgents.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -328,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505358254410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added comments to searchAgents.py">
+      <created>1506293095096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1506293095096</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -400,7 +406,8 @@
     <MESSAGE value="8th question done. All parts complted" />
     <MESSAGE value="Changes made to astar search. Still the score is  full on" />
     <MESSAGE value="Added comments to search.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments to search.py" />
+    <MESSAGE value="Added comments to searchAgents.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments to searchAgents.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
