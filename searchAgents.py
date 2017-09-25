@@ -287,7 +287,7 @@ class CornersProblem(search.SearchProblem):
         self._expanded = 0 # DO NOT CHANGE; Number of search nodes expanded
         # Please add any code here which you would like to use
         # in initializing the problem
-        self.costFn = lambda newstate: 1 #The cost to reach any new state is always one
+        self.costFn = lambda newstate: 1 #The cost to reach any new state is always one. Similar logic used in PositionSearchProblem
         "*** YOUR CODE HERE ***"
 
     def getStartState(self):
@@ -544,7 +544,6 @@ class AnyFoodSearchProblem(PositionSearchProblem):
         "Stores information from the gameState.  You don't need to change this."
         # Store the food for later reference
         self.food = gameState.getFood()
-        # print self.food
         # Store info for the PositionSearchProblem (no need to change this)
         self.walls = gameState.getWalls()
         self.startState = gameState.getPacmanPosition()
