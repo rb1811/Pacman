@@ -15,7 +15,7 @@
 from util import manhattanDistance
 from game import Directions
 import random, util
-
+import operator
 from game import Agent
 
 class ReflexAgent(Agent):
@@ -65,7 +65,7 @@ class ReflexAgent(Agent):
         to create a masterful evaluation function.
         """
         # Useful information you can extract from a GameState (pacman.py)
-        old_food = currentGameState.getFood().asList()
+        oldfood = currentGameState.getFood().asList()
         successorGameState = currentGameState.generatePacmanSuccessor(action)
         newPos = successorGameState.getPacmanPosition()
         newFood = successorGameState.getFood().asList()
@@ -73,13 +73,12 @@ class ReflexAgent(Agent):
         ghostposition = [ghost.getPosition() for ghost in newGhostStates]
 
         if newPos in ghostposition or action == 'Stop':
-            statescore = -float("inf")
-        elif newPos in list(set(old_food)-set(newFood)):
-            statescore = float("inf")
+            return -float("inf")
+        elif newPos in list(set(oldfood)-set(newFood)):
+            return float("inf")
         elif newPos not in newFood:
             md_food_pos = [manhattanDistance(newPos, current_food) for current_food in newFood]
-            statescore = -min(md_food_pos)
-        return statescore
+            return -min(md_food_pos)
 
 
 def scoreEvaluationFunction(currentGameState):
@@ -134,8 +133,35 @@ class MinimaxAgent(MultiAgentSearchAgent):
           gameState.getNumAgents():
             Returns the total number of agents in the game
         """
-        "*** YOUR CODE HERE ***"
+        pacman_score, pacman_move = self.minimax(gameState, self.depth, True, self.index)
+        return pacman_move
         util.raiseNotDefined()
+
+    def minimax(self, gameState, depth, player, agent):
+        pacman_player = True
+        ghost_player = False
+        if depth == 0 or gameState.isWin() or gameState.isLose():
+            return  self.evaluationFunction(gameState), Directions.STOP
+
+        if player == pacman_player:
+            all_moves = gameState.getLegalActions()
+            best_score_index, best_score = max(enumerate([self.minimax(gameState.generateSuccessor(self.index,move), depth, False, 1) for move in all_moves]), key=operator.itemgetter(1))
+            return best_score, all_moves[best_score_index]
+
+        elif player == ghost_player:
+            all_moves = gameState.getLegalActions(agent)
+            if agent != gameState.getNumAgents()-1:
+                worst_score_index, worst_score = min(enumerate(
+                    [self.minimax(gameState.generateSuccessor(agent, move), depth, False, agent+1) for move in all_moves]),
+                    key=operator.itemgetter(1))
+            else:
+                worst_score_index, worst_score = min(enumerate(
+                    [self.minimax(gameState.generateSuccessor(agent, move), depth - 1, True, 0)[0] for move in all_moves]),
+                    key=operator.itemgetter(1))
+            return worst_score, all_moves[worst_score_index]
+
+
+
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
