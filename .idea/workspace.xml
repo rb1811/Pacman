@@ -1,206 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70a2a91-12ae-418e-8fc2-5cc567d26621" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/search.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/autograder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commands.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eightpuzzle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ghostAgents.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grading.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/graphicsDisplay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/graphicsUtils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/keyboardAgents.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigCorners.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigSafeSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/boxSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/capsuleClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/contestClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/contoursMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/greedySearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumCorners.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumDottedMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumSafeSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumScaryMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/minimaxClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/oddSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/originalClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/powerClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallSafeSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinyCorners.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinyMaze.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinySafeSearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinySearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trappedClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trickyClassic.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trickySearch.lay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pacman.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pacmanAgents.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projectParams.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/searchAgents.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/searchTestClasses.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submission_autograder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testClasses.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testParser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_infinite.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_infinite.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/pacman_1.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/pacman_1.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_infinite.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_infinite.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/pacman_1.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/pacman_1.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_infinite.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_infinite.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_0.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_0.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/medium_corners.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/medium_corners.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.solution" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textDisplay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f70a2a91-12ae-418e-8fc2-5cc567d26621" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -310,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1506409758089</updated>
     </task>
+    <task id="LOCAL-00001" summary="Multiagents.py 1st question done">
+      <created>1506409859623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506409859623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -339,6 +148,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Multiagents.py 1st question done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiagents.py 1st question done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
