@@ -1,10 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98a51325-e0bc-4570-8446-9bffbf3658ee" name="Default" comment="">
+    <list default="true" id="f70a2a91-12ae-418e-8fc2-5cc567d26621" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/search.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autograder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eightpuzzle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/game.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ghostAgents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphicsDisplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphicsUtils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/keyboardAgents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigCorners.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigSafeSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/bigSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/boxSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/capsuleClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/contestClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/contoursMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/greedySearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumCorners.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumDottedMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumSafeSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumScaryMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/mediumSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/minimaxClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/oddSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/openSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/originalClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/powerClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallSafeSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/smallSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/testSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinyCorners.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinyMaze.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinySafeSearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/tinySearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trappedClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trickyClassic.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/trickySearch.lay" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pacman.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pacmanAgents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projectParams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchAgents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchTestClasses.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/submission_autograder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testClasses.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testParser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_infinite.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_infinite.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/pacman_1.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q1/pacman_1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_infinite.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_infinite.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/pacman_1.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q2/pacman_1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_infinite.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_infinite.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_0.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_0.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/medium_corners.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q6/medium_corners.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.solution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/textDisplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,115 +209,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="search" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.py">
+    <leaf>
+      <file leaf-file-name="multiAgents.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiagent/multiAgents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="132" column="24" lean-forward="false" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-              <folding>
-                <element signature="e#774#785#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1260">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchAgents.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/searchAgents.py">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiagent/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="292" column="28" lean-forward="true" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
-              <folding>
-                <element signature="e#1499#1785#0" expanded="false" />
-                <element signature="e#8958#9379#0" expanded="false" />
-                <element signature="e#9425#9822#0" expanded="false" />
-                <element signature="e#10097#10271#0" expanded="false" />
-                <element signature="e#15424#15644#0" expanded="false" />
-                <element signature="e#15675#17736#0" expanded="false" />
-                <element signature="e#17783#18003#0" expanded="false" />
-                <marker date="1506366709174" expanded="true" signature="18039:20408" ph="..." />
-                <marker date="1506366709174" expanded="true" signature="18039:20417" ph="..." />
-                <marker date="1506366709174" expanded="true" signature="22553:22628" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>doneCorner</find>
-      <find>filterCorner</find>
-      <find>graphAlgorithms</find>
-      <find>leftCorners</find>
-      <find>leftCor</find>
-      <find>distance</find>
-      <find>cornersHe</find>
-      <find>Cornersh</find>
-      <find>time.slee</find>
-      <find>run</find>
-      <find>manhattan</find>
-      <find>mazedt</find>
-      <find>m</find>
-      <find>Foodhe</find>
-      <find>mazeDistance</find>
-      <find>getGameState</find>
-      <find>heuristicInfo</find>
-      <find>ApproximateSearchAgent</find>
-      <find>foodheu</find>
-      <find>trivial</find>
-      <find>AnyfoodsearchProblem</find>
-      <find>positionsearchproblem</find>
-      <find>self.food</find>
-      <find>-p</find>
-      <find>agents</find>
-      <find>manhattanheuristic</find>
-      <find>lambda</find>
-      <find>corners</find>
-      <find>corner</find>
-      <find>generate_path</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>closed_list</replace>
-      <replace>path</replace>
-      <replace>fringe</replace>
-      <replace>parent</replace>
-      <replace>child</replace>
-      <replace>doneCorners</replace>
-      <replace>startingGameState.doneCorners</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/searchAgents.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/autograder.py" />
-        <option value="$PROJECT_DIR$/util.py" />
-        <option value="$PROJECT_DIR$/game.py" />
-        <option value="$PROJECT_DIR$/search.py" />
-        <option value="$PROJECT_DIR$/searchAgents.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
     <option name="width" value="1366" />
     <option name="height" value="741" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -136,12 +265,27 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/autograder.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,733 +299,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autograder">
-    <configuration default="false" name="pacman" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
-      <option name="PARAMETERS" value="-l bigSearch -p ClosestDotSearchAgent  -z 0.5" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
-      <option name="PARAMETERS" value="-l tinyMaze -p SearchAgent -a fn=depthFirstSearch" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="autograder" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="search" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autograder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.autograder" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pacman" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.pacman" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98a51325-e0bc-4570-8446-9bffbf3658ee" name="Default" comment="" />
-      <created>1504220641808</created>
+      <changelist id="f70a2a91-12ae-418e-8fc2-5cc567d26621" name="Default" comment="" />
+      <created>1506409758089</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1504220641808</updated>
+      <updated>1506409758089</updated>
     </task>
-    <task id="LOCAL-00001" summary="CornersHeuristic 18/25. Improved the heuristic logic">
-      <created>1504818517171</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1504818517171</updated>
-    </task>
-    <task id="LOCAL-00002" summary="CornersHeuristic 18/25. Improved the heuristic logic">
-      <created>1504849882158</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1504849882158</updated>
-    </task>
-    <task id="LOCAL-00003" summary="7th question done. Removed some comments and corrected the commit message">
-      <created>1504850688306</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1504850688306</updated>
-    </task>
-    <task id="LOCAL-00004" summary="8th question done. All parts complted">
-      <created>1504910838152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1504910838152</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changes made to astar search. Still the score is  full on">
-      <created>1505185098256</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1505185098256</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added comments to search.py">
-      <created>1505358254410</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1505358254410</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added comments to searchAgents.py">
-      <created>1506293095096</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1506293095096</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added comments to searchAgents.py">
-      <created>1506293169692</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1506293169692</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added comments to searchAgents.py">
-      <created>1506366749951</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1506366749951</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2003035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32890365" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5321543" sideWeight="0.5043924" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5321543" sideWeight="0.4956076" order="10" side_tool="false" content_ui="tabs" x="0" y="56" width="1366" height="697" />
-      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4188164" sideWeight="0.4969651" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5200669" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43311036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19985358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6722408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="0" y="56" width="1366" height="697" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5215947" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47840533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="CornersHeuristic 18/25. Improved the heuristic logic" />
-    <MESSAGE value="7th question done. Removed some comments and corrected the commit message" />
-    <MESSAGE value="8th question done. All parts complted" />
-    <MESSAGE value="Changes made to astar search. Still the score is  full on" />
-    <MESSAGE value="Added comments to search.py" />
-    <MESSAGE value="Added comments to searchAgents.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments to searchAgents.py" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/search.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-      <option name="time" value="66" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search.py">
+    <entry file="file://$PROJECT_DIR$/multiagent/multiAgents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1260">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autograder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghostAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/bigCorners.lay">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eightpuzzle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/q3/graph_infinite.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_infinite.solution">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autograder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2080">
-          <caret line="68" column="58" lean-forward="false" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10900">
-          <caret line="548" column="7" lean-forward="false" selection-start-line="548" selection-start-column="7" selection-end-line="548" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/tinyCorners.lay">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pacman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="645" column="18" lean-forward="true" selection-start-line="645" selection-start-column="18" selection-end-line="645" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="606" column="0" lean-forward="false" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1491">
-          <caret line="135" column="15" lean-forward="true" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-          <folding>
-            <element signature="e#1499#1785#0" expanded="false" />
-            <element signature="e#8958#9379#0" expanded="false" />
-            <element signature="e#9425#9822#0" expanded="false" />
-            <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#15424#15644#0" expanded="false" />
-            <element signature="e#15675#17736#0" expanded="false" />
-            <element signature="e#17783#18003#0" expanded="false" />
-            <marker date="1506366709174" expanded="true" signature="18039:20408" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="18039:20417" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="22553:22628" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4160">
-          <caret line="211" column="17" lean-forward="true" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6000">
-          <caret line="300" column="11" lean-forward="true" selection-start-line="300" selection-start-column="11" selection-end-line="300" selection-end-column="11" />
-          <folding>
-            <element signature="e#1499#1785#0" expanded="false" />
-            <element signature="e#8958#9379#0" expanded="false" />
-            <element signature="e#9425#9822#0" expanded="false" />
-            <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#15424#15644#0" expanded="false" />
-            <element signature="e#15675#17736#0" expanded="false" />
-            <element signature="e#17783#18003#0" expanded="false" />
-            <marker date="1506366709174" expanded="true" signature="18039:20408" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="18039:20417" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="22553:22628" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5220">
-          <caret line="261" column="16" lean-forward="true" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
-          <folding>
-            <element signature="e#1499#1785#0" expanded="false" />
-            <element signature="e#8958#9379#0" expanded="false" />
-            <element signature="e#9425#9822#0" expanded="false" />
-            <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#15424#15644#0" expanded="false" />
-            <element signature="e#15675#17736#0" expanded="false" />
-            <element signature="e#17783#18003#0" expanded="false" />
-            <marker date="1506366709174" expanded="true" signature="18039:20408" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="18039:20417" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="22553:22628" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4520">
-          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="152" column="83" lean-forward="false" selection-start-line="152" selection-start-column="83" selection-end-line="152" selection-end-column="83" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4180">
-          <caret line="209" column="41" lean-forward="false" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5740">
-          <caret line="287" column="7" lean-forward="true" selection-start-line="287" selection-start-column="7" selection-end-line="287" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="221" column="12" lean-forward="false" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autograder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghostAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/bigCorners.lay">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eightpuzzle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/q3/graph_infinite.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_infinite.solution">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autograder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2080">
-          <caret line="68" column="58" lean-forward="false" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/tinyCorners.lay">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="132" column="24" lean-forward="false" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-          <folding>
-            <element signature="e#774#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pacman.py">
+    <entry file="file://$PROJECT_DIR$/multiagent/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="200" column="33" lean-forward="false" selection-start-line="200" selection-start-column="33" selection-end-line="200" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchAgents.py">
+    <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="292" column="28" lean-forward="true" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
-          <folding>
-            <element signature="e#1499#1785#0" expanded="false" />
-            <element signature="e#8958#9379#0" expanded="false" />
-            <element signature="e#9425#9822#0" expanded="false" />
-            <element signature="e#10097#10271#0" expanded="false" />
-            <element signature="e#15424#15644#0" expanded="false" />
-            <element signature="e#15675#17736#0" expanded="false" />
-            <element signature="e#17783#18003#0" expanded="false" />
-            <marker date="1506366709174" expanded="true" signature="18039:20408" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="18039:20417" ph="..." />
-            <marker date="1506366709174" expanded="true" signature="22553:22628" ph="..." />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
