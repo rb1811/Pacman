@@ -135,17 +135,19 @@ class MinimaxAgent(MultiAgentSearchAgent):
         """
         pacman_score, pacman_move = self.minimax(gameState, self.depth, True, self.index)
         return pacman_move
-        util.raiseNotDefined()
+
 
     def minimax(self, gameState, depth, player, agent):
         pacman_player = True
         ghost_player = False
         if depth == 0 or gameState.isWin() or gameState.isLose():
-            return  self.evaluationFunction(gameState), Directions.STOP
+            return self.evaluationFunction(gameState), Directions.STOP
 
         if player == pacman_player:
             all_moves = gameState.getLegalActions()
-            best_score_index, best_score = max(enumerate([self.minimax(gameState.generateSuccessor(self.index,move), depth, False, 1) for move in all_moves]), key=operator.itemgetter(1))
+            best_score_index, best_score = max(enumerate(
+                [self.minimax(gameState.generateSuccessor(self.index,move), depth, False, 1) for move in all_moves]),
+                key=operator.itemgetter(1))
             return best_score, all_moves[best_score_index]
 
         elif player == ghost_player:
@@ -172,8 +174,52 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         """
           Returns the minimax action using self.depth and self.evaluationFunction
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        alpha, beta = -float("inf"), float("inf")
+        pacman_move = self.alphabetaprune(gameState, 0, True, self.index, alpha, beta)
+        return pacman_move
+
+    def alphabetaprune(self, gameState, depth, player, agent, alpha, beta):
+        pacman_player = True
+        ghost_player = False
+        if gameState.isWin() or gameState.isLose():
+            return gameState.getScore()
+
+        if player == pacman_player:
+            best_score = -float("inf")
+            score = best_score
+            pacman_action = Directions.STOP
+            all_moves = gameState.getLegalActions()
+            for move in all_moves:
+                score = self.alphabetaprune(gameState.generateSuccessor(self.index, move), depth, False, 1, alpha, beta)
+                if score > best_score:
+                    best_score = score
+                    pacman_action = move
+                alpha = max(best_score, alpha)
+                if best_score > beta:
+                    return best_score
+            if depth == 0:
+                return pacman_action
+            else:
+                return best_score
+
+        elif player == ghost_player:
+            all_moves = gameState.getLegalActions(agent)
+            best_score = float("inf")
+            score = best_score
+            for move in all_moves:
+                if agent != gameState.getNumAgents() - 1:
+                    score = self.alphabetaprune(gameState.generateSuccessor(agent, move), depth, False, agent + 1, alpha, beta)
+                else:
+                    if depth == self.depth -1:
+                        score = self.evaluationFunction(gameState.generateSuccessor(agent, move))
+                    else:
+                        score = self.alphabetaprune(gameState.generateSuccessor(agent, move), depth + 1, True, 0, alpha, beta)
+                if score < best_score:
+                    best_score = score
+                beta = min(best_score, beta)
+                if best_score < alpha:
+                    return best_score
+            return best_score
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
@@ -197,7 +243,7 @@ def betterEvaluationFunction(currentGameState):
 
       DESCRIPTION: <write something here so we know what you did>
     """
-    "*** YOUR CODE HERE ***"
+
     util.raiseNotDefined()
 
 # Abbreviation
