@@ -318,7 +318,7 @@ def betterEvaluationFunction(currentGameState):
     if scared_ghost:
         dist_nearest_scaredghost = min([util.manhattanDistance(pacman_pos, ghost.getPosition()) for ghost in scared_ghost])
 
-    return currentGameState.getScore() + -1*md_closest_food + 2*(1.0/dist_nearest_activeghost)+ 3*dist_nearest_scaredghost+ -20*capsules_left + -4*food_left
+    return currentGameState.getScore() + -1*md_closest_food + 2*(1.0/dist_nearest_activeghost)+ 3*dist_nearest_scaredghost+ -4*capsules_left + -5*food_left
 
     util.raiseNotDefined()
 
