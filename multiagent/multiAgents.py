@@ -136,7 +136,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
         pacman_score, pacman_move = self.minimax(gameState, self.depth, True, self.index)
         return pacman_move
 
-
     def minimax(self, gameState, depth, player, agent):
         pacman_player = True
         ghost_player = False
@@ -160,8 +159,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 worst_score_index, worst_score = min(enumerate(
                     [self.minimax(gameState.generateSuccessor(agent, move), depth - 1, True, 0)[0] for move in all_moves]),
                     key=operator.itemgetter(1))
-            return worst_score, all_moves[worst_score_index]
-
+            return worst_score,all_moves[worst_score_index]
 
 
 
@@ -233,7 +231,51 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
           All ghosts should be modeled as choosing uniformly at random from their
           legal moves.
         """
-        "*** YOUR CODE HERE ***"
+        pacman_move, pacman_score = self.expectimax(gameState, 0, True, self.index)
+        return pacman_move
+
+    def expectimax(self, gameState, depth, player, agent):
+        pacman_player = True
+        ghost_player = False
+        if depth == self.depth or gameState.isWin() or gameState.isLose():
+            return self.evaluationFunction(gameState)
+
+        if player == pacman_player:
+            best_score, best_move = -float("inf"), ""
+            all_moves = gameState.getLegalActions()
+            for move in all_moves:
+                if move == 'Stop':
+                    continue
+                maxscore = self.expectimax(gameState.generateSuccessor(self.index, move), depth, False, 1)
+                if type(maxscore) is tuple:
+                    maxscore = [x for x in maxscore if type(x) is float][0]
+                if maxscore > best_score:
+                    best_score = maxscore
+                    best_move = move
+            return best_move, best_score
+
+        elif player == ghost_player:
+            best_move = ""
+            all_moves = gameState.getLegalActions(agent)
+            prob = 1.0 / len(all_moves)
+            minscores = 0.0
+            for move in all_moves:
+                if move == 'Stop':
+                    continue
+                if agent != gameState.getNumAgents() - 1:
+                    minscores = self.expectimax(gameState.generateSuccessor(agent, move), depth, False, agent + 1)
+                    if type(minscores) is tuple:
+                        minscores = [x for x in minscores if type(x) is float][0]
+                else:
+                    minscores = self.expectimax(gameState.generateSuccessor(agent, move), depth + 1, True, 0)
+                if type(minscores) is tuple:
+                    minscores = [x for x in minscores if type(x) is float][0]
+
+                minscores += minscores*prob
+                best_move = move
+            return best_move, minscores
+
+
         util.raiseNotDefined()
 
 def betterEvaluationFunction(currentGameState):
@@ -243,6 +285,40 @@ def betterEvaluationFunction(currentGameState):
 
       DESCRIPTION: <write something here so we know what you did>
     """
+    if currentGameState.isWin():
+        return float("inf")
+    elif currentGameState.isLose():
+        return -float("inf")
+
+    pacman_pos = currentGameState.getPacmanPosition()
+    capsules_left = len(currentGameState.getCapsules())
+    all_food = currentGameState.getFood().asList()
+    food_left = len(all_food)
+    md_closest_food = min([util.manhattanDistance(pacman_pos, food) for food in all_food])
+
+    scared_ghost, active_ghost =[],[]
+    for ghost in currentGameState.getGhostStates():
+        if ghost.scaredTimer:
+            scared_ghost.append(ghost)
+        else:
+            active_ghost.append(ghost)
+
+    dist_nearest_scaredghost = dist_nearest_activeghost = 0
+
+    if not len(scared_ghost):
+        dist_nearest_scaredghost = 0
+
+    if not len(active_ghost):
+        dist_nearest_activeghost = float("inf")
+
+    if active_ghost:
+        dist_nearest_activeghost = min([util.manhattanDistance(pacman_pos, ghost.getPosition()) for ghost in active_ghost])
+        if dist_nearest_activeghost > 10:
+            dist_nearest_activeghost = 10
+    if scared_ghost:
+        dist_nearest_scaredghost = min([util.manhattanDistance(pacman_pos, ghost.getPosition()) for ghost in scared_ghost])
+
+    return currentGameState.getScore() + -1*md_closest_food + 2*(1.0/dist_nearest_activeghost)+ 3*dist_nearest_scaredghost+ -20*capsules_left + -4*food_left
 
     util.raiseNotDefined()
 
