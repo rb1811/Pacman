@@ -4,6 +4,7 @@
     <list default="true" id="f70a2a91-12ae-418e-8fc2-5cc567d26621" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiagent/multiAgents.py" afterPath="$PROJECT_DIR$/multiagent/multiAgents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiagent/pacman.py" afterPath="$PROJECT_DIR$/multiagent/pacman.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="multiAgents.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multiAgents.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiagent/multiAgents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3965">
-              <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            <state relative-caret-position="6380">
+              <caret line="319" column="100" lean-forward="true" selection-start-line="319" selection-start-column="100" selection-end-line="319" selection-end-column="100" />
               <folding>
                 <element signature="e#660#694#0" expanded="true" />
               </folding>
@@ -30,7 +31,7 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiagent/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="12200">
               <caret line="613" column="0" lean-forward="false" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="0" />
               <folding />
             </state>
@@ -47,24 +48,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiagent/game.py">
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="26">
+              <caret line="646" column="18" lean-forward="true" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+              <folding>
+                <element signature="e#1979#2009#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiagent/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="679" column="0" lean-forward="false" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#1979#2009#0" expanded="true" />
+                <element signature="e#1051#1069#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autograder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiagent/autograder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,13 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scoreEvaluationfunction</find>
-      <find>old_food</find>
-      <find>_win</find>
-      <find>index</find>
-      <find>alphabeta</find>
-      <find>al</find>
-      <find>next_ghost</find>
       <find>PACMAN</find>
       <find>best_Action</find>
       <find>best_action</find>
@@ -91,7 +97,25 @@
       <find>pacmanINdex</find>
       <find>maxvalue</find>
       <find>scoreEvaluationFunction</find>
+      <find>'-a'</find>
+      <find>layout</find>
+      <find>agentArgs</find>
+      <find>numTraining</find>
       <find>MultiagentsearchAgent</find>
+      <find>evaluationFunction</find>
+      <find>better</find>
+      <find>autograder</find>
+      <find>parser</find>
+      <find>question</find>
+      <find>rungames</find>
+      <find>no Graphics</find>
+      <find>quietGraphics</find>
+      <find>Gamestatedata</find>
+      <find>avera</find>
+      <find>aver</find>
+      <find>ave</find>
+      <find>average</find>
+      <find>with</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -109,6 +133,8 @@
       <list>
         <option value="$PROJECT_DIR$/multiagent/util.py" />
         <option value="$PROJECT_DIR$/multiagent/game.py" />
+        <option value="$PROJECT_DIR$/multiagent/weight.txt" />
+        <option value="$PROJECT_DIR$/multiagent/pacman.py" />
         <option value="$PROJECT_DIR$/multiagent/multiAgents.py" />
       </list>
     </option>
@@ -153,7 +179,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -166,7 +192,38 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multiagent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/multiagent/autograder.py" />
@@ -262,7 +319,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiagent/pacman.py" />
-      <option name="PARAMETERS" value="-p ExpectimaxAgent -l minimaxClassic -a depth=3" />
+      <option name="PARAMETERS" value="-p ExpectimaxAgent -l smallClassic  -a evalFn=better,depth=3,a=-1,b=2,c=2,d=-4,e=5,f=9 --frameTime 0 -q" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
@@ -280,7 +337,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiagent/autograder.py" />
-      <option name="PARAMETERS" value="--no-graphics" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
@@ -322,23 +379,37 @@
       <option name="project" value="LOCAL" />
       <updated>1506921461271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Multiagents 5th question done, stil needs optimization. 4th question 1 test case fails">
+      <created>1507672948582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507672948582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Multiagents 5th question done changed weights, stil needs optimization. 4th question 1 test case fails">
+      <created>1507673042851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507673042851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19985358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19954476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5200669" sideWeight="0.5030349" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6354515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="0" y="56" width="1366" height="697" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35691318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6354515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="0" y="56" width="1366" height="697" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5215947" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5199336" sideWeight="0.4969651" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5217391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -357,7 +428,9 @@
     <MESSAGE value="Multiagents.py 1st question done" />
     <MESSAGE value="Multiagents.py 2nd question done" />
     <MESSAGE value="Multiagents 3rd question done. May change in future" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiagents 3rd question done. May change in future" />
+    <MESSAGE value="Multiagents 5th question done, stil needs optimization. 4th question 1 test case fails" />
+    <MESSAGE value="Multiagents 5th question done changed weights, stil needs optimization. 4th question 1 test case fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiagents 5th question done changed weights, stil needs optimization. 4th question 1 test case fails" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -380,24 +453,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multiagent/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13700">
-          <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#1979#2009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiagent/multiAgents.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -412,7 +467,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -440,7 +497,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -468,7 +527,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +557,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,7 +587,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3500">
           <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,7 +617,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7600">
           <caret line="380" column="24" lean-forward="false" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +647,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12500">
           <caret line="625" column="25" lean-forward="true" selection-start-line="625" selection-start-column="25" selection-end-line="625" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,7 +677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12340">
           <caret line="617" column="31" lean-forward="false" selection-start-line="617" selection-start-column="31" selection-end-line="617" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +707,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12340">
           <caret line="617" column="31" lean-forward="false" selection-start-line="617" selection-start-column="31" selection-end-line="617" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +737,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12340">
           <caret line="617" column="31" lean-forward="false" selection-start-line="617" selection-start-column="31" selection-end-line="617" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +767,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +797,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +827,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -766,7 +847,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13700">
           <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,6 +890,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multiagent/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#1051#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247971764/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6220">
@@ -817,36 +910,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multiagent/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="12200">
           <caret line="613" column="0" lean-forward="false" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiagent/game.py">
+    <entry file="file://$PROJECT_DIR$/multiagent/weight.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="685" column="0" lean-forward="false" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
+    <entry file="file://$PROJECT_DIR$/multiagent/autograder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="679" column="0" lean-forward="false" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
-          <folding>
-            <element signature="e#1979#2009#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1380">
+          <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multiagent/multiAgents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3965">
-          <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        <state relative-caret-position="6380">
+          <caret line="319" column="100" lean-forward="true" selection-start-line="319" selection-start-column="100" selection-end-line="319" selection-end-column="100" />
           <folding>
             <element signature="e#660#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiagent/pacman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="646" column="18" lean-forward="true" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+          <folding>
+            <element signature="e#1979#2009#0" expanded="true" />
           </folding>
         </state>
       </provider>

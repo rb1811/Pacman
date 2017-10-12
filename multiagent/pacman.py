@@ -48,6 +48,7 @@ from util import manhattanDistance
 import util, layout
 import sys, types, time, random, os
 
+
 ###################################################
 # YOUR INTERFACE TO THE PACMAN WORLD: A GameState #
 ###################################################
@@ -662,7 +663,8 @@ def runGames( layout, pacman, ghosts, display, numGames, record, numTraining = 0
         print 'Scores:       ', ', '.join([str(score) for score in scores])
         print 'Win Rate:      %d/%d (%.2f)' % (wins.count(True), len(wins), winRate)
         print 'Record:       ', ', '.join([ ['Loss', 'Win'][int(w)] for w in wins])
-
+        # with open("weight.txt", "a") as myfile:
+        #     myfile.write(":The weight:" + str(sum(scores) / float(len(scores))) + " "+ ''.join([ ['Loss', 'Win'][int(w)] for w in wins]))
     return games
 
 if __name__ == '__main__':
