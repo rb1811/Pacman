@@ -338,7 +338,7 @@ class Actions:
         if (abs(x - x_int) + abs(y - y_int)  > Actions.TOLERANCE):
             return [config.getDirection()]
 
-        for dir, vec in Actions._directionsAsList:
+        for dir, vec in Actions._directionsAsList`:
             dx, dy = vec
             next_y = y_int + dy
             next_x = x_int + dx
