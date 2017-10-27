@@ -108,7 +108,6 @@ class QLearningAgent(ReinforcementAgent):
                 return self.computeActionFromQValues(state)
         return action
 
-        util.raiseNotDefined()
     def update(self, state, action, nextState, reward):
         """
           The parent class calls this to observe a
@@ -181,15 +180,24 @@ class ApproximateQAgent(PacmanQAgent):
           Should return Q(state,action) = w * featureVector
           where * is the dotProduct operator
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        Qvalue = 0
+        feature_list = self.featExtractor.getFeatures(state, action)
+        for key in feature_list.keys():
+            Qvalue += self.weights[key]*feature_list[key]
+        return Qvalue
 
     def update(self, state, action, nextState, reward):
         """
            Should update your weights based on transition
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        features_list =  self.featExtractor.getFeatures(state, action)
+        for key in features_list.keys():
+            diff = 0
+            if not len(self.getLegalActions(nextState)):
+                diff = reward - self.getQValue(state, action)
+            else:
+                diff = (reward + self.discount * max([self.getQValue(nextState, action) for action in self.getLegalActions(nextState)])) - self.getQValue(state, action)
+            self.weights[key] +=  self.alpha * diff * features_list[key]
 
     def final(self, state):
         "Called at the end of each game."
