@@ -191,14 +191,13 @@ class ApproximateQAgent(PacmanQAgent):
            Should update your weights based on transition
         """
         features_list =  self.featExtractor.getFeatures(state, action)
+        if not len(self.getLegalActions(nextState)):
+            diff = reward - self.getQValue(state, action)
+        else:
+            diff = (reward + self.discount * max([self.getQValue(nextState, nextaction) for nextaction in
+                      self.getLegalActions(nextState)])) - self.getQValue(state, action)
         for key in features_list.keys():
-            diff = 0
-            if not len(self.getLegalActions(nextState)):
-                diff = reward - self.getQValue(state, action)
-            else:
-                diff = (reward + self.discount * max([self.getQValue(nextState, action) for action in self.getLegalActions(nextState)])) - self.getQValue(state, action)
             self.weights[key] +=  self.alpha * diff * features_list[key]
-
     def final(self, state):
         "Called at the end of each game."
         # call the super-class final method

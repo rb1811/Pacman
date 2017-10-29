@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6fd76a-5e39-487f-8ea1-8933d1acdaa7" name="Default" comment="">
+    <list default="true" id="ae6fd76a-5e39-487f-8ea1-8933d1acdaa7" name="Default" comment="A">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reinforcement/qlearningAgents.py" afterPath="$PROJECT_DIR$/reinforcement/qlearningAgents.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reinforcement/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="1260">
+              <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -27,8 +28,8 @@
       <file leaf-file-name="qlearningAgents.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reinforcement/qlearningAgents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="196" column="37" lean-forward="true" selection-start-line="196" selection-start-column="37" selection-end-line="196" selection-end-column="37" />
+            <state relative-caret-position="280">
+              <caret line="199" column="72" lean-forward="false" selection-start-line="199" selection-start-column="72" selection-end-line="199" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -37,7 +38,7 @@
       <file leaf-file-name="featureExtractors.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reinforcement/featureExtractors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -87,7 +88,7 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reinforcement/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="9960">
               <caret line="501" column="10" lean-forward="false" selection-start-line="501" selection-start-column="10" selection-end-line="501" selection-end-column="10" />
               <folding />
             </state>
@@ -374,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509066132963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Only 8th left not working">
+      <created>1509066167096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509066167096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -794,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reinforcement/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="9960">
           <caret line="501" column="10" lean-forward="false" selection-start-line="501" selection-start-column="10" selection-end-line="501" selection-end-column="10" />
           <folding />
         </state>
@@ -802,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reinforcement/featureExtractors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -810,16 +818,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reinforcement/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        <state relative-caret-position="1260">
+          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reinforcement/qlearningAgents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="196" column="37" lean-forward="true" selection-start-line="196" selection-start-column="37" selection-end-line="196" selection-end-column="37" />
+        <state relative-caret-position="280">
+          <caret line="199" column="72" lean-forward="false" selection-start-line="199" selection-start-column="72" selection-end-line="199" selection-end-column="72" />
           <folding />
         </state>
       </provider>
