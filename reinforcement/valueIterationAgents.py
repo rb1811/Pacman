@@ -43,8 +43,8 @@ class ValueIterationAgent(ValueEstimationAgent):
         self.iterations = iterations
         self.values = util.Counter() # A Counter is a dict with default 0
         self.values_copy = util.Counter()
-        for i in range(self.iterations):
-            values_copy = self.values.copy()
+        for i in range(self.iterations): #Run through all the iterations
+            values_copy = self.values.copy() #Do not disturb the original values.
             for state in self.mdp.getStates():
                 aggregrate_list = util.Counter()
                 for action in self.mdp.getPossibleActions(state):
@@ -52,7 +52,7 @@ class ValueIterationAgent(ValueEstimationAgent):
                     for transition in self.mdp.getTransitionStatesAndProbs(state, action):
                         aggregrate += transition[1] * (self.mdp.getReward(state, action, transition[0]) + self.discount * values_copy[transition[0]])
                     aggregrate_list[action] = aggregrate
-                self.values[state] = aggregrate_list[aggregrate_list.argMax()]
+                self.values[state] = aggregrate_list[aggregrate_list.argMax()]#Store the max of all actions in the values.
 
     def getValue(self, state):
         """
@@ -69,7 +69,7 @@ class ValueIterationAgent(ValueEstimationAgent):
         aggregrate = 0
         for transition in self.mdp.getTransitionStatesAndProbs(state, action):
             aggregrate += transition[1] * (self.mdp.getReward(state, action, transition[0]) + self.discount * self.values[transition[0]])
-        return aggregrate
+        return aggregrate #Return the computed average of all the actions.
         util.raiseNotDefined()
 
     def computeActionFromValues(self, state):
@@ -85,15 +85,15 @@ class ValueIterationAgent(ValueEstimationAgent):
         if self.mdp.isTerminal(state):
             return None
         else:
-            max_value, best_action = - float("inf"), ""
+            max_value, best_action = - float("inf"), "" #Initialize the default max value and best action
             for action in self.mdp.getPossibleActions(state):
                 aggregrate = 0
                 for transition in self.mdp.getTransitionStatesAndProbs(state, action):
                     aggregrate += transition[1]*(self.mdp.getReward(state, action, transition[0]) + self.discount*self.values[transition[0]])
-                if aggregrate > max_value:
+                if aggregrate > max_value:#Update the max value and best action
                     max_value = aggregrate
                     best_action = action
-            return best_action
+            return best_action #Return the best action
 
         util.raiseNotDefined()
 

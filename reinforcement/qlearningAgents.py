@@ -50,9 +50,9 @@ class QLearningAgent(ReinforcementAgent):
           Should return 0.0 if we have never seen a state
           or the Q node value otherwise
         """
-        if (state, action) not in self.Qval:
+        if (state, action) not in self.Qval: #If a new state return 0.0
             self.Qval[(state, action)] = 0.0
-        return self.Qval[(state, action)]
+        return self.Qval[(state, action)] #Else return the Q value.
         util.raiseNotDefined()
 
 
@@ -63,11 +63,11 @@ class QLearningAgent(ReinforcementAgent):
           there are no legal actions, which is the case at the
           terminal state, you should return a value of 0.0.
         """
-        if not len(self.getLegalActions(state)):
+        if not len(self.getLegalActions(state)):#If no legal actions return 0.0
             return 0.0
         else:
             all_actions = util.Counter()
-            for action in self.getLegalActions(state):
+            for action in self.getLegalActions(state): #For all actions possible for that state return the max of all actions
                 all_actions[action] = self.getQValue(state, action)
             return all_actions[all_actions.argMax()]
         util.raiseNotDefined()
@@ -78,9 +78,9 @@ class QLearningAgent(ReinforcementAgent):
           are no legal actions, which is the case at the terminal state,
           you should return None.
         """
-        if not len(self.getLegalActions(state)):
+        if not len(self.getLegalActions(state)): #If its a terminal state return None
             return None
-        else:
+        else:#Else for all actions possible for that state return action that gives you the maximum qvalue
             all_actions = util.Counter()
             for action in self.getLegalActions(state):
                 all_actions[action] = self.getQValue(state, action)
@@ -100,11 +100,11 @@ class QLearningAgent(ReinforcementAgent):
         """
         # Pick Action
         legalActions = self.getLegalActions(state)
-        action = None
+        action = None #Default action is none and is returned if no legal actions are possible for the state.
         if len(legalActions):
-            if util.flipCoin(self.epsilon):
+            if util.flipCoin(self.epsilon): # With an epsilon probability explore
                 return random.choice(legalActions)
-            else:
+            else: #with 1-epsilon probability exploit
                 return self.computeActionFromQValues(state)
         return action
 
@@ -118,6 +118,7 @@ class QLearningAgent(ReinforcementAgent):
           OTE: You should never call this function,
           it will be called on your behalf
         """
+        #Use the formula to compute the Q-values
         self.Qval[(state, action)] = (1-self.alpha)*self.getQValue(state, action) + self.alpha*(reward + self.discount * self.computeValueFromQValues(nextState))
 
     def getPolicy(self, state):
@@ -173,7 +174,7 @@ class ApproximateQAgent(PacmanQAgent):
         self.weights = util.Counter()
 
     def getWeights(self):
-        return self.weights
+        return self.weights #return the weight
 
     def getQValue(self, state, action):
         """
@@ -182,7 +183,7 @@ class ApproximateQAgent(PacmanQAgent):
         """
         Qvalue = 0
         feature_list = self.featExtractor.getFeatures(state, action)
-        for key in feature_list.keys():
+        for key in feature_list.keys(): #Compute the q-values of the state based on the weights and features for the state
             Qvalue += self.weights[key]*feature_list[key]
         return Qvalue
 
@@ -190,14 +191,14 @@ class ApproximateQAgent(PacmanQAgent):
         """
            Should update your weights based on transition
         """
-        features_list =  self.featExtractor.getFeatures(state, action)
-        if not len(self.getLegalActions(nextState)):
+        features_list =  self.featExtractor.getFeatures(state, action) #Get all the features possible for the state.
+        if not len(self.getLegalActions(nextState)): #Update the weights based on the value
             diff = reward - self.getQValue(state, action)
         else:
             diff = (reward + self.discount * max([self.getQValue(nextState, nextaction) for nextaction in
-                      self.getLegalActions(nextState)])) - self.getQValue(state, action)
+                      self.getLegalActions(nextState)])) - self.getQValue(state, action) #Based on the formula compute the differences.
         for key in features_list.keys():
-            self.weights[key] +=  self.alpha * diff * features_list[key]
+            self.weights[key] +=  self.alpha * diff * features_list[key] #update the weights based on the differences.
     def final(self, state):
         "Called at the end of each game."
         # call the super-class final method
