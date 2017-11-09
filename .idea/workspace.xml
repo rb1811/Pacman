@@ -17,8 +17,8 @@
       <file leaf-file-name="solvers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classification/solvers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="387" column="39" lean-forward="true" selection-start-line="387" selection-start-column="39" selection-end-line="387" selection-end-column="39" />
+            <state relative-caret-position="410">
+              <caret line="383" column="39" lean-forward="true" selection-start-line="383" selection-start-column="39" selection-end-line="383" selection-end-column="39" />
               <folding>
                 <marker date="1510202053802" expanded="true" signature="5059:5070" ph="..." />
               </folding>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509523271150</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tensorflow question 4-6 done">
+      <created>1510202097591</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510202097591</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +382,8 @@
     <MESSAGE value="Only 8th left not working" />
     <MESSAGE value="All questions done RL" />
     <MESSAGE value="Comments added to RL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments added to RL" />
+    <MESSAGE value="Tensorflow question 4-6 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tensorflow question 4-6 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classification/solvers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="387" column="39" lean-forward="true" selection-start-line="387" selection-start-column="39" selection-end-line="387" selection-end-column="39" />
+        <state relative-caret-position="410">
+          <caret line="383" column="39" lean-forward="true" selection-start-line="383" selection-start-column="39" selection-end-line="383" selection-end-column="39" />
           <folding>
             <marker date="1510202053802" expanded="true" signature="5059:5070" ph="..." />
           </folding>
