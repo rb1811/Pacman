@@ -81,6 +81,7 @@ class GradientDescentSolver(Solver):
         and the member variable self.learning_rate.
         """
         grad_tensors = tf.gradients(loss_tensor, param_vars)
+        # Updating the parameters and returning a list of tuples which has the old parameter and the new parameter value.
         updates = [(param_vars[i], param_vars[i] - self.learning_rate * grad_tensors[i]) for i in range(len(param_vars))]
         # util.raiseNotDefined()
         return updates
@@ -105,7 +106,9 @@ class GradientDescentSolver(Solver):
         grad_tensors = tf.gradients(loss_tensor, param_vars)
         vel_vars = [tf.Variable(np.zeros(param_var.get_shape(), dtype=np.float32)) for param_var in param_vars]
         tfu.get_session().run([vel_var.initializer for vel_var in vel_vars])
+        # Updating the velocity.
         update_v = [(vel_vars[i], self.momentum * vel_vars[i] - self.learning_rate * grad_tensors[i]) for i in range(len(vel_vars))]
+        # Updating the weight vectors based on the velocity.
         update_w = [(param_vars[i], param_vars[i] + update_v[i][1]) for i in range(len(param_vars))]
         # util.raiseNotDefined()
         return update_v + update_w
@@ -177,11 +180,11 @@ class GradientDescentSolver(Solver):
         for iter_ in range(self.iterations):
             # train_loss should be the loss of this iteration using all of the training data
             # val_loss should be the loss of this iteration using all of the validation data
-            train_loss = session.run(loss_tensor, feed_dict = {model.input_ph: input_train_data, target_ph: target_train_data})
+            train_loss = session.run(loss_tensor, feed_dict = {model.input_ph: input_train_data, target_ph: target_train_data}) #Calculating the train loss
             session.run(update_ops, feed_dict = {model.input_ph: input_train_data, target_ph: target_train_data})
-            train_losses.append(train_loss)
-            val_loss = session.run(loss_tensor, feed_dict={model.input_ph: input_val_data, target_ph: target_val_data})
-            val_losses.append(val_loss)
+            train_losses.append(train_loss) #appending the train loss to a list
+            val_loss = session.run(loss_tensor, feed_dict={model.input_ph: input_val_data, target_ph: target_val_data}) #Calculating the validation loss
+            val_losses.append(val_loss) #appending the validation loss to a list
             if callback is not None: callback(model)
             self.display_progress(iter_, train_losses, val_losses)
         return train_losses, val_losses
@@ -267,8 +270,8 @@ class StochasticGradientDescentSolver(GradientDescentSolver):
         val_data = [input_val_data, target_val_data]
         # You may want to initialize some variables that are shared across iterations
         "*** YOUR CODE HERE ***"
-        train_data_gen = MinibatchIndefinitelyGenerator(train_data, 1, self.shuffle)
-        val_data_gen = MinibatchIndefinitelyGenerator(val_data, 1, self.shuffle)
+        train_data_gen = MinibatchIndefinitelyGenerator(train_data, 1, self.shuffle) #Gettting the training data
+        val_data_gen = MinibatchIndefinitelyGenerator(val_data, 1, self.shuffle) #getting the validation data
 
         loss_tensor = self.get_loss_tensor(model.prediction_tensor, target_ph, model.get_param_vars(regularizable=True))
         updates = self.get_updates(loss_tensor, model.get_param_vars(trainable=True))
@@ -279,11 +282,11 @@ class StochasticGradientDescentSolver(GradientDescentSolver):
             # train_loss should be the loss of this iteration using only the training data that was used for the updates
             # val_loss should be the loss of this iteration using the same amount of data used for the updates, but using the validation data instead
 
-            result = train_data_gen.next()
-            train_loss = session.run(loss_tensor, feed_dict = {model.input_ph: result[0], target_ph: result[1]})
+            result = train_data_gen.next() #Fetech the training data in an iterative fashion
+            train_loss = session.run(loss_tensor, feed_dict = {model.input_ph: result[0], target_ph: result[1]}) #Calculate the train loss
             session.run(update_ops, feed_dict = {model.input_ph: result[0], target_ph: result[1]})
-            result = val_data_gen.next()
-            val_loss = session.run(loss_tensor, feed_dict = {model.input_ph: result[0], target_ph: result[1]})
+            result = val_data_gen.next()#Fetech the validation data in an iterative fashion
+            val_loss = session.run(loss_tensor, feed_dict = {model.input_ph: result[0], target_ph: result[1]}) #Calculate the validation loss
 
             train_losses.append(train_loss)
             val_losses.append(val_loss)

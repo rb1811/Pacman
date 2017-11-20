@@ -23,7 +23,7 @@ def q3():
 
 def q7():
     "*** YOUR CODE HERE ***"
-    return 'both'
+    return 'both' #It converges for both
 
 def q10():
     """
@@ -37,6 +37,7 @@ def q10():
     iterations. You should achieve at least a 97% accuracy on the MNIST test set.
     """
     hyperparams = dict()
+    #For this values you see a decrease in the loss over the iterations.
     hyperparams['learning_rate'] = 0.02
     hyperparams['momentum'] = 0.9
     # filter out any item in the dict that is not the learning rate nor momentum

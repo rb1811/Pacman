@@ -51,7 +51,9 @@ def enhancedFeatureExtractor(datum):
     """
     features =  np.zeros_like(datum, dtype=int)
     features[datum > 0] = 1
-    total_rows, total_cols = datum.shape[0], datum.shape[1]
+    total_rows, total_cols = datum.shape[0], datum.shape[1] # Get the total rows and columns
+    #A cell in 2D matrix can be connected to 8 neighbors. So, unlike standard DFS(), where we recursively call for all adjacent vertices, here we can recursive call for 4 neighbors only.
+    # We keep track of the visited 0s so that they are not visited again.
     number_white_islands = countWhiteIslands(features, total_rows, total_cols)
 
     extra_features = np.array([0,0,0])
@@ -79,6 +81,7 @@ def countWhiteIslands(matrix, rows, cols):
     return count
 
 def DFS(matrix, row, col, rows, cols, visited):
+    #Check only the immediate top, bottom, left and right cells.
     neigh_row = [0, 0, 1, -1]
     neigh_col = [-1, 1, 0, 0]
     visited[row][col] = 1
@@ -87,6 +90,7 @@ def DFS(matrix, row, col, rows, cols, visited):
             DFS(matrix, row+neigh_row[k], col+neigh_col[k], rows, cols, visited)
 
 def isSafe(matrix, row, col, rows, cols, vistied):
+    # Check if the neighbouring cell is within bounds, is a 0 and has not been visited previously.
     return (row >= 0) and (row < rows) and \
            (col >= 0) and (col < cols) and \
            (not matrix[row][col]) and (not vistied[row][col])
