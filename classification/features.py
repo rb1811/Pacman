@@ -49,13 +49,47 @@ def enhancedFeatureExtractor(datum):
 
     ##
     """
-    features = basicFeatureExtractor(datum)
+    features =  np.zeros_like(datum, dtype=int)
+    features[datum > 0] = 1
+    total_rows, total_cols = datum.shape[0], datum.shape[1]
+    number_white_islands = countWhiteIslands(features, total_rows, total_cols)
 
-    "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    extra_features = np.array([0,0,0])
+    if number_white_islands == 1:
+        extra_features = np.array([1,0,0])
+    elif number_white_islands == 2:
+        extra_features =  np.array([0,1,0])
+    elif number_white_islands > 2:
+        extra_features = np.array([0, 0, 1])
+    return np.concatenate((features.flatten(), extra_features), axis = 0)
 
-    return features
+    # features = basicFeatureExtractor(datum)
 
+    # util.raiseNotDefined()
+
+    # return features
+def countWhiteIslands(matrix, rows, cols):
+    visited = np.zeros((rows, cols))
+    count = 0
+    for i in range(rows):
+        for j in range(cols):
+            if not matrix[i][j] and not visited[i][j]:
+                DFS(matrix, i, j, rows,cols, visited)
+                count += 1
+    return count
+
+def DFS(matrix, row, col, rows, cols, visited):
+    neigh_row = [0, 0, 1, -1]
+    neigh_col = [-1, 1, 0, 0]
+    visited[row][col] = 1
+    for k in range(len(neigh_col)):
+        if isSafe(matrix, row+neigh_row[k], col+neigh_col[k], rows, cols, visited):
+            DFS(matrix, row+neigh_row[k], col+neigh_col[k], rows, cols, visited)
+
+def isSafe(matrix, row, col, rows, cols, vistied):
+    return (row >= 0) and (row < rows) and \
+           (col >= 0) and (col < cols) and \
+           (not matrix[row][col]) and (not vistied[row][col])
 
 def analysis(model, trainData, trainLabels, trainPredictions, valData, valLabels, validationPredictions):
     """
